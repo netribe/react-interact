@@ -1,0 +1,35 @@
+{
+  "name": "@netribe/react-interact",
+  "version": "1.0.0",
+  "description": "Easy user interaction (hover, mouse press, focus) for react components",
+  "main": "dist/ReactInteract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "start": ".\\node_modules\\.bin\\webpack --mode development --watch --progress --hide-modules --config=./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netribe/react-interact.git"
+  },
+  "keywords": [
+    "react",
+    "interact"
+  ],
+  "author": "ido-ofir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netribe/react-interact/issues"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "homepage": "https://github.com/netribe/react-interact#readme"
+}
